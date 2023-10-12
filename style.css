@@ -86,10 +86,6 @@ video {
     vertical-align: baseline;
 }
 
-
-
-
-
 body {
     font-family: "Georgia", serif;
     width: 100%;
@@ -110,8 +106,13 @@ body {
 .Subscribe {
     display: inline;
     background-color: rgb(150, 49, 0);
-    padding: 2% 4%;
-    border-radius: 15%;
+    padding: 5px;
+    border-radius: 0.5rem;
+    font-size: 12px;
+    font-family: -apple-system, BlinkMacSystemFont, Helvetica Neue, Segoe UI, Roboto, Arial, sans-serif;
+    font-weight: 600;
+
+
 
 
 }
@@ -267,21 +268,23 @@ h1 {
     margin-bottom: 16px;
 }
 
-.introduction a{
+.introduction a {
     color: #14599d;
 }
 
-.introduction a[href="https://www.britannica.com/dictionary/credited"]{
+.introduction a[href="https://www.britannica.com/dictionary/credited"] {
     text-decoration: underline dotted;
 }
 
-.contenuCarte{
+.contenuCarte {
     padding: 20px
 }
-.card{
+
+.card {
     border: 1px solid #ddd;
 }
-div.contenuCarte > p{
+
+div.contenuCarte>p {
     color: #14599d;
     font-size: 14px;
     text-align: center;
@@ -292,21 +295,21 @@ div.contenuCarte > p{
     padding-bottom: 20px;
 }
 
-.informationsPersos{
+.informationsPersos {
     padding-top: 20px;
     font-family: -apple-system, BlinkMacSystemFont, Helvetica Neue, Segoe UI, Roboto, Arial, sans-serif;
     font-size: 14px;
 }
 
-.informationsPersos p{
+.informationsPersos p {
     margin-bottom: 10px;
 }
 
-.informationsPersos span{
+.informationsPersos span {
     color: #14599d;
 }
 
-div.contenuCarte button{
+div.contenuCarte button {
     margin-top: 20px;
     text-align: center;
     color: #135392;
@@ -319,5 +322,19 @@ div.contenuCarte button{
     padding-left: 1.25em;
     padding-right: 1.25em;
     font-weight: 600;
+    justify-self: center;
+    position: relative;
+    margin: auto;
+}
 
+figure {
+    border: 1px solid #ddd;
+    box-shadow: 2px 2px 2px #ddd;
+    border-radius: 0.5rem;
+}
+
+figcaption {
+    font-size: 14px;
+    padding: 10px;
+    font-family: -apple-system, BlinkMacSystemFont, Helvetica Neue, Segoe UI, Roboto, Arial, sans-serif;
 }
