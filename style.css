@@ -264,6 +264,7 @@ h1 {
     font-size: 1.125rem;
     line-height: 1.6;
     word-wrap: break-word;
+    margin-bottom: 16px;
 }
 
 .introduction a{
@@ -272,4 +273,51 @@ h1 {
 
 .introduction a[href="https://www.britannica.com/dictionary/credited"]{
     text-decoration: underline dotted;
+}
+
+.contenuCarte{
+    padding: 20px
+}
+.card{
+    border: 1px solid #ddd;
+}
+div.contenuCarte > p{
+    color: #14599d;
+    font-size: 14px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+    font-weight: 700;
+    font-family: -apple-system, BlinkMacSystemFont, Helvetica Neue, Segoe UI, Roboto, Arial, sans-serif;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.informationsPersos{
+    padding-top: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, Helvetica Neue, Segoe UI, Roboto, Arial, sans-serif;
+    font-size: 14px;
+}
+
+.informationsPersos p{
+    margin-bottom: 10px;
+}
+
+.informationsPersos span{
+    color: #14599d;
+}
+
+div.contenuCarte button{
+    margin-top: 20px;
+    text-align: center;
+    color: #135392;
+    background-color: transparent;
+    border: 1px solid #ddd;
+    font-family: -apple-system, BlinkMacSystemFont, Helvetica Neue, Segoe UI, Roboto, Arial, sans-serif;
+    padding: 10.5px 17.5px;
+    font-size: 0.875rem;
+    border-radius: 0.5rem;
+    padding-left: 1.25em;
+    padding-right: 1.25em;
+    font-weight: 600;
+
 }
