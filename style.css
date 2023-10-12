@@ -268,6 +268,10 @@ h1 {
     margin-bottom: 16px;
 }
 
+.introduction p {
+    margin-bottom: 16px;
+}
+
 .introduction a {
     color: #14599d;
 }
@@ -337,4 +341,21 @@ figcaption {
     font-size: 14px;
     padding: 10px;
     font-family: -apple-system, BlinkMacSystemFont, Helvetica Neue, Segoe UI, Roboto, Arial, sans-serif;
+}
+
+
+@media only screen and (min-width: 900px){
+    .container{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .introduction{
+        max-width: 60%;
+    }
+    figure {
+        max-height: 350px;
+    }
+    figure img{
+        max-height: 300px;
+    }
 }
