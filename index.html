@@ -6,7 +6,18 @@
   <link rel="icon" type="image/svg+xml" href="/vite.svg" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
   <title>Vite App</title>
+  <style>
+    .material-symbols-outlined {
+      font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 24
+    }
+  </style>
 </head>
 
 <body>
@@ -38,45 +49,86 @@
     </div>
   </div>
   <div class="contenu">
-    <p style="color: grey; font-weight: 200; padding-top: 10px; font-size: 14px;">Home > Science
-      >
-      Mathematics</p>
+    <nav class="breadcrumb">
+      <span class="breadcrumb-item ">
+        <a href="/" class="link"> Home</a>
+      </span>
+      <span class="breadcrumb-item ">
+        <a class="link" href="/browse/Science">> &#160 Science</a>
+      </span>
 
-    <p
-      style="background-color: rgb(254,215,170); display: inline-block; padding: 2px 4px; border-radius:16px; margin-top: 20px; font-weight: 800;">
-      Science & Tech</p>
-    <h1 style="font-size: 27px; font-weight: 500;">Tim Berners-Lee</h1>
-    <h5>British scientist</h5>
-    <div style="font-size: 12px;">
-      <p style="font-style: italic; font-size: 12px; color: grey; font-weight: 100;">Also known as Sir Tim
-        Berners-Lee</p>
-      <p>Written by <a href="">Michael Aaron Dennis</a></p>
-      <p>Fact-checked by <a href="#">The Editors of Encyclopaedia Britannica</a></p>
-      <p>Last updated: <a href="#">Article History</a></p>
-      <p
-        style="border: 1px solid rgb(221,221,221); width: 100%; text-align: center; position: relative; margin: auto; color: rgb(20,89,157); margin-top: 20px; font-weight: 500; padding: 10px;">
-        Table of Contents</p>
-      <p style="box-shadow: 3px 3px 3px rgb(0 0 0 / 0.1); margin-top: 10px;
-                ">Listen to article 3 minutes</p>
+      <span class="breadcrumb-item ">
+        <a class="link" href="/browse/Mathematics">> &#160 Mathematics</a>
+      </span>
+    </nav>
+
+
+    <div style="display: flex; justify-content: space-between; align-items: self-start">
+      <div>
+        <a class="scienceTech">
+          Science & Tech</a>
+        <h1>Tim Berners-Lee</h1>
+        <p>British scientist</p>
+      </div>
+      <div style="margin-top: 20px;">
+        <button class="Actions"><span class="material-symbols-outlined" style="font-size: 1.5em;">
+            more_vert
+          </span>
+          Actions</button>
+      </div>
+    </div>
+    <div class="caption">Also known as: Sir Tim Berners-Lee</div>
+
+    <div class="infosArticle">
+      <p>Written by <span>Michael Aaron Davis</span></p>
+      <p>Fact checked by <span>The Editors of Encyclopaedia Britannica</span></p>
+      <p>Last Updated: <span>Article History</span></p>
 
     </div>
-    <div class="carte">
+
+    <button class="tableOfContents">
+      <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24">
+        <path fill="currentColor"
+          d="M3 9h14V7H3v2zm0 4h14v-2H3v2zm0 4h14v-2H3v2zm16 0h2v-2h-2v2zm0-10v2h2V7h-2zm0 6h2v-2h-2v2z"></path>
+      </svg>
+      Table of Contents
+
+    </button>
+
+    <div class="listenToArticle">
 
       <div>
-        <img src="British-scientist-Tim-Berners-Lee.JPG" alt="">
+        <svg xmlns="http://www.w3.org/2000/svg" height="35" viewBox="0 0 24 24" width="35">
+          <path d="M0 0h24v24H0z" fill="none" class="playButton" />
+          <path
+            d="M10 16.5l6-4.5-6-4.5v9zM12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z" />
+        </svg>
       </div>
-
-
+      <div>
+        <span>Listen to article</span>
+        <span>3 minutes</span>
+      </div>
     </div>
+
+    <section class="introduction">
+
+      <p><strong><span id="ref796236"></span>Tim Berners-Lee</strong>, in full <strong>Sir Tim Berners-Lee</strong>,
+        (born June 8, 1955, <a href="https://www.britannica.com/place/London">London</a>,
+        England), British computer scientist,
+        generally <a href="https://www.britannica.com/dictionary/credited">credited</a> as the inventor of the <a
+          href="https://www.britannica.com/topic/World-Wide-Web">World
+          Wide Web</a>. In 2004 he was awarded a knighthood by Queen <a
+          href="https://www.britannica.com/biography/Elizabeth-II">Elizabeth II</a> of the United Kingdom and the
+        inaugural Millennium Technology Prize
+        (€1 million) by the Finnish Technology Award Foundation.</p>
+
+    </section>
   </div>
-
-
-  <script src="https://kit.fontawesome.com/90f23d29c2.js" crossorigin="anonymous"></script>
-
-
-
-
-  <script type="module" src="/main.js"></script>
+  <div class="card">
+    
+  </div>
+    <script src="https://kit.fontawesome.com/90f23d29c2.js" crossorigin="anonymous"></script>
+    <script type="module" src="/main.js"></script>
 
 </body>
 
